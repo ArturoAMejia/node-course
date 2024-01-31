@@ -1,0 +1,25 @@
+{
+  "name": "section-2",
+  "version": "0.0.1",
+  "description": "this is my first node app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArturoAMejia/node-course.git"
+  },
+  "author": "Arturo Mejia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArturoAMejia/node-course/issues"
+  },
+  "homepage": "https://github.com/ArturoAMejia/node-course#readme",
+  "dependencies": {
+    "get-age": "^1.0.1",
+    "uuid": "^9.0.1"
+  }
+}
